@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Rudra Tiwari — Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-zinc-50 to-white text-zinc-900">
+  <header class="sticky top-0 backdrop-blur bg-white/70 border-b border-zinc-200 z-50">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#home" class="font-semibold text-lg">Rudra Tiwari</a>
+      <nav class="hidden sm:flex gap-6 text-sm">
+        <a href="#projects" class="hover:text-zinc-700">Projects</a>
+        <a href="#skills" class="hover:text-zinc-700">Skills</a>
+        <a href="#education" class="hover:text-zinc-700">Education</a>
+        <a href="#certifications" class="hover:text-zinc-700">Certifications</a>
+        <a href="#contact" class="hover:text-zinc-700">Contact</a>
+      </nav>
+      <a href="#contact" class="text-sm px-3 py-1.5 rounded-xl bg-zinc-900 text-white hover:bg-zinc-800">Get in touch</a>
+    </div>
+  </header>
+
+  <section id="home" class="max-w-5xl mx-auto px-4 pt-12 pb-10">
+    <div class="flex flex-col md:flex-row items-start md:items-center gap-6">
+      <div class="flex-1">
+        <h1 class="text-3xl md:text-4xl font-bold tracking-tight">Rudra Tiwari</h1>
+        <p class="mt-2 text-lg text-zinc-700">IT Software / Analyst — Fresher</p>
+        <div class="mt-4 flex flex-wrap gap-3 text-sm">
+          <a href="mailto:rudrat1841@gmail.com" class="px-3 py-1.5 rounded-lg border border-zinc-300 hover:bg-zinc-100">rudrat1841@gmail.com</a>
+          <a href="tel:+917805091159" class="px-3 py-1.5 rounded-lg border border-zinc-300 hover:bg-zinc-100">+91 78050-91159</a>
+          <a href="https://linkedin.com/in/rudrat" target="_blank" class="px-3 py-1.5 rounded-lg border border-zinc-300 hover:bg-zinc-100">LinkedIn</a>
+          <a href="https://github.com/rudrxx" target="_blank" class="px-3 py-1.5 rounded-lg border border-zinc-300 hover:bg-zinc-100">GitHub</a>
+        </div>
+      </div>
+      <div class="md:w-1/3 w-full">
+        <div class="p-4 rounded-2xl border border-zinc-200 bg-white shadow-sm">
+          <h2 class="font-semibold mb-2">Summary</h2>
+          <p class="text-sm leading-6 text-zinc-700">
+            Highly motivated Computer Science undergraduate with strong analytical, problem-solving, and communication skills. Experienced in developing data-driven software solutions using Python, C++, and Power BI. Proven ability to build interactive dashboards, scalable chatbots, and algorithmic systems from scratch. Quick learner who thrives in collaborative environments and consistently delivers results with attention to detail. Eager to contribute in IT Software or Analyst roles while expanding expertise in AI, automation, and system design.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="max-w-5xl mx-auto px-4 py-8">
+    <h2 class="text-2xl font-semibold">Projects</h2>
+    <div class="mt-4 grid md:grid-cols-2 gap-4">
+      <article class="p-4 rounded-2xl border border-zinc-200 bg-white shadow-sm">
+        <div class="flex items-start justify-between gap-3">
+          <div>
+            <h3 class="font-semibold">RAG-Based Chatbot Backend</h3>
+            <p class="text-xs text-zinc-600 mt-0.5">Python • LangChain • FAISS • Google Colab</p>
+          </div>
+        </div>
+        <ul class="mt-3 space-y-2 text-sm text-zinc-700 list-disc pl-5">
+          <li>Built a retrieval-based chatbot; indexed multi-format documents and answered queries with ~90% context accuracy.</li>
+          <li>Integrated HuggingFace embeddings, LangChain, and FAISS; reduced setup complexity using offline caching.</li>
+          <li>Packaged backend logic for easy cloud deployment.</li>
+        </ul>
+      </article>
+
+      <article class="p-4 rounded-2xl border border-zinc-200 bg-white shadow-sm">
+        <div class="flex items-start justify-between gap-3">
+          <div>
+            <h3 class="font-semibold">Market Basket Analysis Engine</h3>
+            <p class="text-xs text-zinc-600 mt-0.5">C++ • STL</p>
+          </div>
+        </div>
+        <ul class="mt-3 space-y-2 text-sm text-zinc-700 list-disc pl-5">
+          <li>Implemented Apriori with pruning and memory-efficient data structures.</li>
+          <li>Designed rule evaluation (support, confidence, lift); improved performance by 28%.</li>
+        </ul>
+      </article>
+
+      <article class="p-4 rounded-2xl border border-zinc-200 bg-white shadow-sm">
+        <div class="flex items-start justify-between gap-3">
+          <div>
+            <h3 class="font-semibold">Blinkit Sales Dashboard</h3>
+            <p class="text-xs text-zinc-600 mt-0.5">Excel • Power Query • Visualization</p>
+          </div>
+        </div>
+        <ul class="mt-3 space-y-2 text-sm text-zinc-700 list-disc pl-5">
+          <li>Created an interactive dashboard with slicers and pivot tables.</li>
+          <li>Insights prioritized Tier-3 outlets, improving targeting accuracy by 15%.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills" class="max-w-5xl mx-auto px-4 py-8">
+    <h2 class="text-2xl font-semibold">Technical Skills</h2>
+    <div class="mt-4 grid md:grid-cols-2 gap-4">
+      <div class="p-4 rounded-2xl border border-zinc-200 bg-white">
+        <h3 class="font-semibold">Programming Languages</h3>
+        <ul class="mt-2 flex flex-wrap gap-2">
+          <li class="px-2.5 py-1 rounded-full border border-zinc-300 text-sm bg-zinc-50">C++</li>
+          <li class="px-2.5 py-1 rounded-full border border-zinc-300 text-sm bg-zinc-50">Python</li>
+        </ul>
+      </div>
+      <div class="p-4 rounded-2xl border border-zinc-200 bg-white">
+        <h3 class="font-semibold">Data Analysis</h3>
+        <ul class="mt-2 flex flex-wrap gap-2">
+          <li class="px-2.5 py-1 rounded-full border border-zinc-300 text-sm bg-zinc-50">Excel (Pivot Tables, Charts)</li>
+          <li class="px-2.5 py-1 rounded-full border border-zinc-300 text-sm bg-zinc-50">Power BI</li>
+        </ul>
+      </div>
+      <div class="p-4 rounded-2xl border border-zinc-200 bg-white">
+        <h3 class="font-semibold">Development Tools</h3>
+        <ul class="mt-2 flex flex-wrap gap-2">
+          <li class="px-2.5 py-1 rounded-full border border-zinc-300 text-sm bg-zinc-50">Google Colab</li>
+          <li class="px-2.5 py-1 rounded-full border border-zinc-300 text-sm bg-zinc-50">Jupyter Notebook</li>
+        </ul>
+      </div>
+      <div class="p-4 rounded-2xl border border-zinc-200 bg-white">
+        <h3 class="font-semibold">Core Competencies</h3>
+        <ul class="mt-2 flex flex-wrap gap-2">
+          <li class="px-2.5 py-1 rounded-full border border-zinc-300 text-sm bg-zinc-50">Data Structures &amp; Algorithms</li>
+          <li class="px-2.5 py-1 rounded-full border border-zinc-300 text-sm bg-zinc-50">Problem Solving</li>
+          <li class="px-2.5 py-1 rounded-full border border-zinc-300 text-sm bg-zinc-50">Basic Machine Learning</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="max-w-5xl mx-auto px-4 py-8">
+    <h2 class="text-2xl font-semibold">Education</h2>
+    <div class="mt-4 grid gap-4">
+      <div class="p-4 rounded-2xl border border-zinc-200 bg-white">
+        <div class="flex flex-wrap items-baseline justify-between gap-2">
+          <h3 class="font-semibold">SRM Institute of Science and Technology</h3>
+          <span class="text-sm text-zinc-600">2022 — 2026</span>
+        </div>
+        <p class="text-sm text-zinc-700 mt-1">B.Tech in Computer Science and Engineering (AI &amp; ML), CGPA: 8.31/10</p>
+        <p class="text-xs text-zinc-500 mt-0.5">Kattankulathur, Tamil Nadu</p>
+      </div>
+      <div class="p-4 rounded-2xl border border-zinc-200 bg-white">
+        <div class="flex flex-wrap items-baseline justify-between gap-2">
+          <h3 class="font-semibold">Ryan International School</h3>
+          <span class="text-sm text-zinc-600">2022</span>
+        </div>
+        <p class="text-sm text-zinc-700 mt-1">Class XII - CBSE (MPC)</p>
+        <p class="text-xs text-zinc-500 mt-0.5">Raipur, Chhattisgarh</p>
+      </div>
+      <div class="p-4 rounded-2xl border border-zinc-200 bg-white">
+        <div class="flex flex-wrap items-baseline justify-between gap-2">
+          <h3 class="font-semibold">Indus World School</h3>
+          <span class="text-sm text-zinc-600">2020</span>
+        </div>
+        <p class="text-sm text-zinc-700 mt-1">Class X - CBSE</p>
+        <p class="text-xs text-zinc-500 mt-0.5">Raipur, Chhattisgarh</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications" class="max-w-5xl mx-auto px-4 py-8">
+    <h2 class="text-2xl font-semibold">Certifications</h2>
+    <ul class="mt-3 grid gap-3">
+      <li class="p-4 rounded-2xl border border-zinc-200 bg-white">
+        <p class="text-sm"><span class="font-medium">Data Mining – NPTEL</span> — <span class="text-zinc-700">Applied association rule mining (Apriori).</span></p>
+      </li>
+      <li class="p-4 rounded-2xl border border-zinc-200 bg-white">
+        <p class="text-sm"><span class="font-medium">Networking Basics – Cisco</span> — <span class="text-zinc-700">TCP/IP, routing, subnetting.</span></p>
+      </li>
+      <li class="p-4 rounded-2xl border border-zinc-200 bg-white">
+        <p class="text-sm"><span class="font-medium">Image Processing Onramp – MathWorks</span> — <span class="text-zinc-700">Hands-on introduction using MATLAB.</span></p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact" class="max-w-5xl mx-auto px-4 py-10">
+    <div class="p-6 rounded-2xl border border-zinc-200 bg-white shadow-sm">
+      <h2 class="text-2xl font-semibold">Contact</h2>
+      <p class="mt-2 text-zinc-700">Open to IT Software / Analyst opportunities. Feel free to reach out.</p>
+      <div class="mt-4 flex flex-wrap gap-3 text-sm">
+        <a href="mailto:rudrat1841@gmail.com" class="px-3 py-1.5 rounded-lg border border-zinc-300 hover:bg-zinc-100">rudrat1841@gmail.com</a>
+        <a href="tel:+917805091159" class="px-3 py-1.5 rounded-lg border border-zinc-300 hover:bg-zinc-100">+91 78050-91159</a>
+        <a href="https://linkedin.com/in/rudrat" target="_blank" class="px-3 py-1.5 rounded-lg border border-zinc-300 hover:bg-zinc-100">LinkedIn</a>
+        <a href="https://github.com/rudrxx" target="_blank" class="px-3 py-1.5 rounded-lg border border-zinc-300 hover:bg-zinc-100">GitHub</a>
+        <button onclick="window.print()" class="ml-auto px-3 py-1.5 rounded-lg bg-zinc-900 text-white text-sm hover:bg-zinc-800">Download PDF</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="pb-10 text-center text-xs text-zinc-500">
+    © <span id="year"></span> Rudra Tiwari. All rights reserved.
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
